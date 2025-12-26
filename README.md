@@ -34,27 +34,22 @@ SQL-based analysis of 177 U.S. school shooting incidents (1999-2019) that quanti
 ```
 ## 📊 Visual Insights
 1. Internal vs. External Threat Profile
-"https://github.com/tayabhavsar/School-Shooting-Prevention-Analysis---Sales-Enablement/blob/main/visualizations/Internal%20vs.%20External%20Threat.jpeg"
+![Internal vs External Threat](https://github.com/tayabhavsar/School-Shooting-Prevention-Analysis---Sales-Enablement/blob/main/visualizations/Internal%20vs.%20External%20Threat.jpeg)
 
 
 Sales Talking Point: "Physical security addresses external threats. Our data shows 71% of school shooters are current students already inside your building—behavioral monitoring is the primary prevention investment, not a nice-to-have. This pattern has remained stable for 20 years."
 
 
-
  2. Market Segmentation by School Size
-<div align="center">
-  <img src="visualizations/market_segmentation_school_size.jpeg" alt="School Size Analysis" width="900"/>
-</div>
-
+![School Size Analysis](https://github.com/tayabhavsar/School-Shooting-Prevention-Analysis---Sales-Enablement/blob/main/visualizations/School%20Size%20Analysis.jpeg)
 
 Pricing Strategy: "Medium-sized schools (500-1,500 students) represent 52% of incidents—your volume opportunity with standard pricing. Large schools (2,000+) show 2× higher casualties per incident—your premium enterprise tier with enhanced response protocols."
 
 
 3. Weapon Sources & Prevention Pathways
-<div align="center">
-  <img src="visualizations/weapon_sources.jpeg" alt="Weapon Sources" width="900"/>
-</div>
+![Weapon Sources](https://github.com/tayabhavsar/School-Shooting-Prevention-Analysis---Sales-Enablement/blob/main/visualizations/Weapon%20Sources.jpeg)
 
+**Product Bundling Insight:**  
 
 Product Bundling: "Anonymous reporting prevents the DEADLIEST attacks—friend-sourced weapons show 3× higher casualties (9.75 vs 2.89). Family education addresses 54% of weapon sources. Together, they create comprehensive prevention that physical security alone cannot provide."
 
