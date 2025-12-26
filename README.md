@@ -1,3 +1,6 @@
+![MIT License](https://img.shields.io/badge/license-MIT-green)
+![Stars](https://img.shields.io/github/stars/tayabhavsar/School-Shooting-Prevention-Analysis---Sales-Enablement)
+
 ## School Safety Technology Sales Enablement Analysis
 
 Data-driven insights to transform school safety technology sales cycles and prove ROI
@@ -5,13 +8,13 @@ Data-driven insights to transform school safety technology sales cycles and prov
 ## 📊 Project Overview
 School safety technology companies face a critical challenge: 9-12 month sales cycles with <20% close rates due to inability to prove ROI. District leaders consistently ask: "What percentage of threats does your platform actually address?"
 This analysis provides the answer using 20 years of incident data to quantify which threats behavioral monitoring platforms can address versus physical security measures.
-The Problem
 
-Sales teams forced into defensive selling and price concessions
-Customer success teams rely on surface-level metrics (alerts generated, reports submitted)
-No empirical data to answer: "Why invest in behavioral monitoring vs. physical security?"
+## Business Problem:
+- Sales teams forced into defensive selling and price concessions
+- Customer success teams rely on surface-level metrics (alerts generated, reports submitted)
+- No empirical data to answer: "Why invest in behavioral monitoring vs. physical security?"
 
-The Solution
+The Solution: 
 SQL-based analysis of 177 U.S. school shooting incidents (1999-2019) that quantifies addressable risk and provides data-driven sales enablement metrics.
 
 ## 🎯 Key Findings
@@ -60,44 +63,50 @@ Product Bundling: "Anonymous reporting prevents the DEADLIEST attacks—friend-s
 ## 🔍 Analysis Sections
 1. Data Preparation & Cleaning
 
-NULL value handling for casualties data
-Calculated columns (total casualties, student shooter flags)
-Text field standardization (state codes, gender, school type)
-Analysis-ready view creation with era segmentation
+* NULL value handling for casualties data
+* Calculated columns (total casualties, student shooter flags)
+* Text field standardization (state codes, gender, school type)
+* Analysis-ready view creation with era segmentation
+  
 
  2. Exploratory Analysis
 
-Dataset summary and validation (177 incidents, 1999-2019)
-Year-over-year temporal trends
-Historical vs. modern era comparisons
+* Dataset summary and validation (177 incidents, 1999-2019)
+* Year-over-year temporal trends
+* Historical vs. modern era comparisons
+
 
  3. Prevention Opportunity Analysis (Core Sales Metrics)
 
-Student shooter prevalence: 71.2% known to schools
-Age distribution analysis: 14-16 age group = optimal intervention window
-Gender patterns: 95% male (stable across 20 years)
-Weapon sources: Family/home (54%), friends/peers (highest casualties)
+* Student shooter prevalence: 71.2% known to schools
+* Age distribution analysis: 14-16 age group = optimal intervention window
+* Gender patterns: 95% male (stable across 20 years)
+* Weapon sources: Family/home (54%), friends/peers (highest casualties)
+
 
  4. School Characteristics Analysis
 
-School type distribution (Public: 99% of incidents)
-School size correlation: Medium schools = volume opportunity, large schools = premium pricing
-Resource officer analysis (demonstrates selection bias awareness)
+* School type distribution (Public: 99% of incidents)
+* School size correlation: Medium schools = volume opportunity, large schools = premium pricing
+* Resource officer analysis (demonstrates selection bias awareness)
+
 
  5. Geographic Patterns
 
-## Top 10 states by incident frequency
-Modern era hotspots (frequency vs. severity analysis)
-Territory planning insights: CA, FL, TX = 28% of incidents
+ * Top 10 states by incident frequency
+* Modern era hotspots (frequency vs. severity analysis)
+* Territory planning insights: CA, FL, TX = 28% of incidents
+
 
  6. Preventability Scoring
 
-Overall prevention opportunity: 70%+ of incidents show identifiable intervention points
-Era-based stability validation (patterns consistent 1999-2019)
+* Overall prevention opportunity: 70%+ of incidents show identifiable intervention points
+* Era-based stability validation (patterns consistent 1999-2019)
+
 
  7. Data Quality & Validation
 
-Completeness assessment: Student relationship (99%), Age (100%), Gender (96%), Weapon source (39%)
+* Completeness assessment: Student relationship (99%), Age (100%), Gender (96%), Weapon source (39%)
 Transparent limitation documentation
 
 
@@ -135,42 +144,6 @@ Family education (addresses 54% of weapon sources)
 | **Deal Size** | Price pressure | Premium positioning |
 
 
-## 📊 Data Source
-Dataset: Washington Post School Shootings Database
-Period: 1999-2019
-Records: 177 incidents
-Completeness: Student relationship (99%), Age (100%), Gender (96%), Weapon source (39%)
-
-## 🚀 Usage
-Running the Analysis
-
-Setup Database
-
-sqlCREATE DATABASE school_shooting_prevention;
-USE school_shooting_prevention;
-
-Import Data
-
-
-Import Washington Post School Shootings Database CSV into school_shootings table
-
-
-Execute Analysis
-
-sqlSOURCE School_Shooting_Prevention_Analysis.sql;
-Key Queries for Sales Teams
-Student Shooter Percentage (Primary Sales Metric):
-sqlSELECT 
-    COUNT(*) * 100.0 / (SELECT COUNT(*) FROM analysis_view) as student_shooter_pct
-FROM analysis_view
-WHERE is_student_shooter = TRUE;
--- Result: 71.2%
-Age-Based Intervention Window:
-sqlSELECT age_group, incidents, pct_of_total
-FROM age_distribution_analysis
-ORDER BY incidents DESC;
--- Result: Ages 14-16 = 43% of incidents
-
 ## 📝 Key Insights for Sales Presentations
 
 | Insight | Statistic | Sales Implication |
@@ -185,36 +158,45 @@ ORDER BY incidents DESC;
 Sales Talking Points
 
 "Why not just invest in physical security?"
-"Physical security addresses external threats. Our data shows 71% of school shooters are current students already inside your building. Behavioral monitoring addresses the actual threat profile."
+
+Physical security addresses external threats. Our data shows 71% of school shooters are current students already inside your building. Behavioral monitoring addresses the actual threat profile.
 
 
 "Can you quantify ROI?"
-"Based on 20 years of incident data, 70%+ of school shooting incidents show identifiable prevention opportunities through student threat assessment, anonymous reporting, and family education—the core features of our platform."
+
+Based on 20 years of incident data, 70%+ of school shooting incidents show identifiable prevention opportunities through student threat assessment, anonymous reporting, and family education—the core features of our platform.
 
 
 "Why focus on high school students?"
-"Ages 14-16 represent 43% of incidents, with 96% being current students. This is the optimal intervention window: highest frequency, nearly all are monitored students, and lower average casualties suggest early-stage planning that can be disrupted."
+
+Ages 14-16 represent 43% of incidents, with 96% being current students. This is the optimal intervention window: highest frequency, nearly all are monitored students, and lower average casualties suggest early-stage planning that can be disrupted.
 
 
-## 🤝 Contributing
+## 🤝 Future Framework
 This analysis framework can be extended to:
+* Additional time periods (2020-present)
+* International incident databases
+* Cross-platform effectiveness studies
+* Predictive modeling for risk assessment
 
-Additional time periods (2020-present)
-International incident databases
-Cross-platform effectiveness studies
-Predictive modeling for risk assessment
+## 📊 Data Source
+- Dataset: Washington Post School Shootings Database
+- Period: 1999-2019
+- Records: 177 incidents
+- Completeness: Student relationship (99%), Age (100%), Gender (96%), Weapon source (39%)
+
 
 ## 🛠️ Technical Skills Demonstrated
 Data Cleaning: NULL handling, text standardization, type conversions
 SQL Techniques:
 
-Complex CASE statements for categorical grouping
-Window functions (PARTITION BY for percentages)
-CTEs and subqueries for complex calculations
-Pattern matching (LIKE, REGEXP)
-View creation for reusable queries
-Statistical Analysis: Temporal trends, correlation analysis, confounding variable identification
-Business Intelligence: Translating data into actionable sales/CS strategies
+* Complex CASE statements for categorical grouping
+* Window functions (PARTITION BY for percentages)
+* CTEs and subqueries for complex calculations
+* Pattern matching (LIKE, REGEXP)
+* View creation for reusable queries
+* Statistical Analysis: Temporal trends, correlation analysis, confounding variable identification
+* Business Intelligence: Translating data into actionable sales/CS strategies
 
 ## 📄 License
 MIT License - See LICENSE file for details
