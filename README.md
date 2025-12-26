@@ -35,21 +35,15 @@ SQL-based analysis of 177 U.S. school shooting incidents (1999-2019) that quanti
 ## 📊 Visual Insights
 1. Internal vs. External Threat Profile
 
-<img src="https://github.com/tayabhavsar/School-Shooting-Prevention-Analysis---Sales-Enablement/blob/main/visualizations/Internal%20vs.%20External%20Threat.jpeg" width="1000">
-
 Sales Talking Point: "Physical security addresses external threats. Our data shows 71% of school shooters are current students already inside your building—behavioral monitoring is the primary prevention investment, not a nice-to-have. This pattern has remained stable for 20 years."
 
 
  2. Market Segmentation by School Size
 
-![School Size Analysis](https://github.com/tayabhavsar/School-Shooting-Prevention-Analysis---Sales-Enablement/blob/main/visualizations/School%20Size%20Analysis.jpeg)
-
 Pricing Strategy: "Medium-sized schools (500-1,500 students) represent 52% of incidents—your volume opportunity with standard pricing. Large schools (2,000+) show 2× higher casualties per incident—your premium enterprise tier with enhanced response protocols."
 
 
 3. Weapon Sources & Prevention Pathways
-
-![Weapon Sources](https://github.com/tayabhavsar/School-Shooting-Prevention-Analysis---Sales-Enablement/blob/main/visualizations/Weapon%20Sources.jpeg)
 
 **Product Bundling Insight:**  
 Product Bundling: "Anonymous reporting prevents the DEADLIEST attacks—friend-sourced weapons show 3× higher casualties (9.75 vs 2.89).
@@ -109,6 +103,7 @@ Transparent limitation documentation
 
 ## 💡 Strategic Recommendations
 1. Reframe Sales Positioning
+
 Current State: Defensive selling focused on features
 New Approach: Lead with addressable risk data
 
@@ -123,10 +118,10 @@ Small schools (<500): Simplified tiers
 3. Shift Customer Success Metrics
 Replace: Alerts generated, reports submitted
 With: Estimated incidents prevented, benchmark alignment, ROI narratives
-4. Bundle Around Three-Layer Prevention Model
-Package together:
 
-Student threat assessment
+5. Bundle Around Three-Layer Prevention Model
+Package together: Student threat assessment
+
 Anonymous peer reporting (addresses friend-sourced weapons = 3× higher casualties)
 Family education (addresses 54% of weapon sources)
 
@@ -152,7 +147,8 @@ Family education (addresses 54% of weapon sources)
 | **Severity Amplifier** | Friend-sourced weapons lead to 3× higher casualties | Anonymous reporting helps prevent worst-case outcomes |
 | **Long-Term Validity** | Patterns stable over 20 years | Prevention strategy is durable and future-proof |
 
-Sales Talking Points
+
+## Sales Talking Points
 
 "Why not just invest in physical security?"
 
@@ -184,9 +180,14 @@ This analysis framework can be extended to:
 
 
 ## 🛠️ Technical Skills Demonstrated
-Data Cleaning: NULL handling, text standardization, type conversions
-SQL Techniques:
 
+Data Cleaning:
+* NULL handling
+* Text standardization
+* Type conversions
+
+
+SQL Techniques:
 * Complex CASE statements for categorical grouping
 * Window functions (PARTITION BY for percentages)
 * CTEs and subqueries for complex calculations
