@@ -34,9 +34,8 @@ SQL-based analysis of 177 U.S. school shooting incidents (1999-2019) that quanti
 ```
 ## 📊 Visual Insights
 1. Internal vs. External Threat Profile
-<div align="center">
-  <img src="visualizations/internal_vs_external_threats.jpeg" alt="Internal vs External Threats" width="800"/>
-</div>
+"https://github.com/tayabhavsar/School-Shooting-Prevention-Analysis---Sales-Enablement/blob/main/visualizations/Internal%20vs.%20External%20Threat.jpeg"
+
 
 Sales Talking Point: "Physical security addresses external threats. Our data shows 71% of school shooters are current students already inside your building—behavioral monitoring is the primary prevention investment, not a nice-to-have. This pattern has remained stable for 20 years."
 
