@@ -26,11 +26,18 @@ SQL-based analysis of 177 U.S. school shooting incidents (1999-2019) that quanti
 | **Weapon Access Points** | 54% of firearms come from family/home environments | Validates anonymous reporting + family education bundling |
 | **Market Segmentation** | Medium schools (500–1,500 students) account for 52% of incidents | Supports tiered pricing strategy by school size |
 ```
-🗂️ Repository Structure
-.
-├── School_Shooting_Prevention_Analysis.sql    # Complete SQL analysis with annotations
-├── School Safety Technology Sales Enablement Analysis.pdf    # Executive summary report
-└── README.md                                   # This file
+## 📂 Project Structure
+```
+├── Executive Summary/              # Business-focused presentation materials
+│   └── Sales Enablement Analysis.pdf
+├── script/                         # SQL analysis code
+│   └── School_Shooting_Prevention_Analysis.sql
+├── visualizations/                 # Data visualizations and charts
+│   ├── internal_vs_external_threats.png
+│   ├── school_size_distribution.png
+│   └── weapon_sources.png
+├── LICENSE                         # MIT License
+└── README.md                       # Project documentation
 ```
 ## 📊 Visual Insights
 1. Internal vs. External Threat Profile
