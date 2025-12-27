@@ -38,27 +38,55 @@ SQL-based analysis of 177 U.S. school shooting incidents (1999-2019) that quanti
 ├── LICENSE                         # MIT License
 └── README.md                       # Project documentation
 ```
-## 📊 Visual Insights
-1. Internal vs. External Threat Profile
-![71% of School Shooters Are Current Students](visualizations/internal_vs_external_threats.png)
-
-Sales Talking Point: "Physical security addresses external threats. Our data shows 71% of school shooters are current students already inside your building—behavioral monitoring is the primary prevention investment, not a nice-to-have. This pattern has remained stable for 20 years."
+## 📊 Visual Insights & Strategic Takeaways
 
 
- 2. Market Segmentation by School Size
-![School Size Segmentation](visualizations/school_size_segmentation.png)
+
+🔹 Internal vs External Threats
+<p align="center"> <img src="visualizations/internal_vs_external_threats.png" width="700"> </p>
+
+Sales Insight:
+
+Physical security addresses external threats — but the data shows the real risk is internal.
+71% of school shooters are current students, meaning prevention must focus on behavioral detection and early intervention.
+This pattern has remained stable for over 20 years, making behavioral monitoring a core investment—not a nice-to-have.
+
+ 
+ 🔹 Market Segmentation by School Size
+<p align="center"> <img src="visualizations/school_size_segmentation.png" width="700"> </p>
+
+Pricing & Market Strategy:
+
+🏫 Medium schools (500–1,500 students)
+→ 52% of incidents
+→ Highest-volume opportunity
+→ Ideal for standard pricing tiers
+
+🏢 Large schools (2,000+ students)
+→ 2× higher casualties per incident
+→ Strong fit for premium / enterprise-tier solutions
+→ Justifies enhanced monitoring and response features
 
 
-Pricing Strategy: "Medium-sized schools (500-1,500 students) represent 52% of incidents—your volume opportunity with standard pricing. Large schools (2,000+) show 2× higher casualties per incident—your premium enterprise tier with enhanced response protocols."
+## 🔹 Weapon Sources & Prevention Leverage Points
+<p align="center"> <img src="visualizations/weapon_sources_interventions.png" width="700"> </p>
+
+Product Bundling Insight:
+
+🔍 The deadliest attacks come from peer-sourced weapons
+Incidents involving friends/peers result in 3× higher casualties
+(9.75 vs 2.89 per incident)
 
 
-3. Weapon Sources & Prevention Pathways
-![Weapon Sources and Prevention Opportunities](visualizations/weapon_sources_interventions.png)
 
-**Product Bundling Insight:**  
-Product Bundling: "Anonymous reporting prevents the DEADLIEST attacks—friend-sourced weapons show 3× higher casualties (9.75 vs 2.89).
-Family education addresses 54% of weapon sources. 
-Together, they create comprehensive prevention that physical security alone cannot provide."
+## Strategic Implications:
+
+🧠 Anonymous reporting directly mitigates the most lethal attack pathway
+
+🏠 Family education addresses 54% of weapon sources
+
+🔗 Together, they create layered prevention that physical security alone cannot achieve
+
 
 
 ## 🔍 Analysis Sections
