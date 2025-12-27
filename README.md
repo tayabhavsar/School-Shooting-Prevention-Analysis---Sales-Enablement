@@ -27,7 +27,6 @@ SQL-based analysis of 177 U.S. school shooting incidents (1999-2019) that quanti
 | **Market Segmentation** | Medium schools (500–1,500 students) account for 52% of incidents | Supports tiered pricing strategy by school size |
 ```
 ## 📂 Project Structure
-```
 ├── Executive Summary/              # Business-focused presentation materials
 │   └── Sales Enablement Analysis.pdf
 ├── script/                         # SQL analysis code
