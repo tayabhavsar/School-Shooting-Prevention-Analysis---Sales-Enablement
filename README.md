@@ -33,8 +33,8 @@ SQL-based analysis of 177 U.S. school shooting incidents (1999-2019) that quanti
 │   └── School_Shooting_Prevention_Analysis.sql
 ├── visualizations/                 # Data visualizations and charts
 │   ├── internal_vs_external_threats.png
-│   ├── school_size_distribution.png
-│   └── weapon_sources.png
+│   ├── school_size_segmentation.png
+│   └── weapon_sources_interventions.png
 ├── LICENSE                         # MIT License
 └── README.md                       # Project documentation
 ```
