@@ -40,16 +40,20 @@ SQL-based analysis of 177 U.S. school shooting incidents (1999-2019) that quanti
 ```
 ## 📊 Visual Insights
 1. Internal vs. External Threat Profile
+![71% of School Shooters Are Current Students](visualizations/internal_vs_external_threats.png)
 
 Sales Talking Point: "Physical security addresses external threats. Our data shows 71% of school shooters are current students already inside your building—behavioral monitoring is the primary prevention investment, not a nice-to-have. This pattern has remained stable for 20 years."
 
 
  2. Market Segmentation by School Size
+![School Size Segmentation](visualizations/school_size_segmentation.png)
+
 
 Pricing Strategy: "Medium-sized schools (500-1,500 students) represent 52% of incidents—your volume opportunity with standard pricing. Large schools (2,000+) show 2× higher casualties per incident—your premium enterprise tier with enhanced response protocols."
 
 
 3. Weapon Sources & Prevention Pathways
+![Weapon Sources and Prevention Opportunities](visualizations/weapon_sources_interventions.png)
 
 **Product Bundling Insight:**  
 Product Bundling: "Anonymous reporting prevents the DEADLIEST attacks—friend-sourced weapons show 3× higher casualties (9.75 vs 2.89).
@@ -106,6 +110,48 @@ Together, they create comprehensive prevention that physical security alone cann
 * Completeness assessment: Student relationship (99%), Age (100%), Gender (96%), Weapon source (39%)
 Transparent limitation documentation
 
+## 🚀 Usage
+
+1️⃣ Running the Analysis
+
+📦 Setup Database
+```
+CREATE DATABASE school_shooting_prevention;
+USE school_shooting_prevention;
+```
+📥 Import Data
+
+Import the Washington Post School Shootings Database CSV into the
+school_shootings table.
+
+Ensure column names match those expected in the analysis scripts.
+
+▶️ Execute Analysis
+```
+SOURCE School_Shooting_Prevention_Analysis.sql;
+````
+📊 Key Queries for Sales & Product Teams
+
+🔹 Student Shooter Percentage (Primary Sales Metric)
+This metric highlights how often incidents originate internally — critical for positioning prevention tools.
+```
+SELECT 
+    COUNT(*) * 100.0 / (SELECT COUNT(*) FROM analysis_view) AS student_shooter_pct
+FROM analysis_view
+WHERE is_student_shooter = TRUE;
+```
+Result:
+✅ 71.2% of incidents involve current students
+
+🔹 Age-Based Intervention Window
+Identifies the most effective age range for early intervention programs
+```
+SELECT age_group, incidents, pct_of_total
+FROM age_distribution_analysis
+ORDER BY incidents DESC;
+```
+Result:
+📌 Ages 14–16 account for 43% of incidents
 
 ## 💡 Strategic Recommendations
 1. Reframe Sales Positioning
