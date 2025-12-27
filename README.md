@@ -207,7 +207,7 @@ Data Analyst | Business Intelligence
 
 Interested in discussing data-driven go-to-market strategies or sales analytics?
 
-- 📧 Email: your.email@example.com
+- 📧 Email: tayab492@gmail.com
 - 💼 LinkedIn: [linkedin.com/in/tayabhavsar]
 - 📊 Portfolio: [https://github.com/tayabhavsar]
 
