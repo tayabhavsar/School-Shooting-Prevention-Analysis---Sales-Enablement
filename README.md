@@ -201,7 +201,17 @@ MIT License - See LICENSE file for details
 
 ## 👤 Author
 Taya Bhavsar
-Data Analyst | SQL | Business Intelligence
+Data Analyst | Business Intelligence
+
+## 📫 Let's Connect
+
+Interested in discussing data-driven go-to-market strategies or sales analytics?
+
+- 📧 Email: your.email@example.com
+- 💼 LinkedIn: [linkedin.com/in/tayabhavsar]
+- 📊 Portfolio: [https://github.com/tayabhavsar]
+
+**Open to opportunities in:** Sales Analytics, Business Intelligence, Customer Success Analytics, GTM Strategy
 
 ## ⭐ Star this repo if you found it helpful!
 Data-driven insights for school safety technology companies
