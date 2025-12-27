@@ -42,7 +42,7 @@ SQL-based analysis of 177 U.S. school shooting incidents (1999-2019) that quanti
 
 
 
-🔹 Internal vs External Threats
+## 🔹 Internal vs External Threats
 <p align="center"> <img src="visualizations/internal_vs_external_threats.png" width="700"> </p>
 
 Sales Insight:
@@ -52,7 +52,7 @@ Physical security addresses external threats — but the data shows the real ris
 This pattern has remained stable for over 20 years, making behavioral monitoring a core investment—not a nice-to-have.
 
  
- 🔹 Market Segmentation by School Size
+## 🔹 Market Segmentation by School Size
 <p align="center"> <img src="visualizations/school_size_segmentation.png" width="700"> </p>
 
 Pricing & Market Strategy:
